@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+p {
+  margin: 0;
+  text-align: justify;
+}
+
+ul {
+  text-align: justify;
+  li {
+    margin: 5px 0;
+  }
+}
+
+a {
+  color: inherit;
+}
+
+.top-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  .contact-details {
+    width: 80%;
+  }
+
+  .profile-pic {
+    width: 20%;
+    object-fit: cover;
+    aspect-ratio: 3/4;
+  }
+}
+
+.section-heading {
+  border-bottom: 1px solid black;
+}
+
+.two-col {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
